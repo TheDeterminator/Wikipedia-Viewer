@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class='container-fluid'>
+  <div class='row'>
+    <div class='col-xs-12 col-sm-12 text-center'>
+      <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'><h3 id='randArticle'>Click here for a random wikipedia article...</h3></a>
+      <h3>or Search on your own below!</h3>
+    </div>
+  </div>
+  <div class='row'>
+    <!--Why don't I need forms?-->
+    <div class='col-xs-2 col-sm-2'></div>
+    <div class='col-xs-6 col-sm-6'>
+      <!--What happens when you put a value into your search bar???-->
+      <input class='form-control' id='searchTerm' placeholder="Search">
+    </div>
+    <div class='col-xs-2 col-sm-2'>
+      <button class='btn btn-primary' type='button' id='search'><i class="fa fa-search" aria-hidden="true" id='fa-search'></i> Search</button>
+    </div>
+    
+    <div>
+      <ul id='output' class='text-left'>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
